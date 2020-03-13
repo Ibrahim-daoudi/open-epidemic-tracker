@@ -1,0 +1,14 @@
+the table user
+(id , position_altitude, position_longitude, state)
+the table neighbors
+(user1 , user2)
+---------------------------------------------------------------
+id : primary key of table user
+state : is an attribute who has 4 values
+  doubt : the user doubt to be ill
+  iller : the user is confirmed to be ill
+  safe : the user in a good health
+---------------------------------------------------------------
+la table voisin : 
+It works to record every meeting between the user and other users, for example: registration (1, 2) means that user No. 1 has met user number 2 before. 
+If the state of user No. 1 is iller , the system will immediately classify user 2 in the suspicious list (update the state of user No.2 by doubt)
